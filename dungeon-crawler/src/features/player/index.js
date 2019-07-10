@@ -1,7 +1,3 @@
-import React from "react";
-
-function Player(props) {
-  return <div>Player</div>;
-}
-
+// Export Player component
+import Player from "./Player";
 export default Player;
