@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import Player from "./features/player";
 
 class App extends Component {
   render() {
-    return <div />;
+    return (
+      <div>
+        <Player />
+      </div>
+    );
   }
 }
 
